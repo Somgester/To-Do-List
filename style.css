@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+    background-color:black;
+  }
+
+  .tdl {
+    max-width: 500px;
+    margin: 18% auto;
+    padding: 20px;
+    background-color:rgb(30, 28, 28);
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .tdl h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .tdl ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .tdl li {
+    margin-bottom: 5px;
+    padding: 10px;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .tdl li.completed {
+    color:crimson;
+    text-decoration: line-through;
+    /* background-color: white; */
+    /* color: rgb(38, 37, 37); */
+    border-radius: 5px;
+  }
+  .tdl input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+  }
+
+  .tdl button {
+    margin-top: 20px;
+    padding: 5px;
+    position: relative;
+    left: 205px;
+    background-color:cyan;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .tdl button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px rgb(49, 54, 54), 0 0 200px rgb(64, 75, 75);
+  }

@@ -16,7 +16,7 @@ A simple and efficient to-do list application built with HTML, CSS, and JavaScri
   ## Clone this repository to your local machine.
     git clone "https://github.com/Somgester/To-Do-List.git"
   ## Use
-    Open the todo.html file in a web browser.
+    Open the index.html file in a web browser.
     Start managing your tasks!
   ## Using the App
     Add tasks: Type your task in the input field and press the "Add" button.
